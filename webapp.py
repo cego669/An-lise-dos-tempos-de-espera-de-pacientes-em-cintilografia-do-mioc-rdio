@@ -29,7 +29,7 @@ y = data_grouped.apply(np.mean).reset_index().sort_values("dia")["dia_formatado"
 error_x = data_grouped.apply(np.std).reset_index().sort_values("dia")["tempo_espera"]
 
 st.markdown("""
-<h1 style='text-align: center;'>Análise dos tempos de espera em cintilografia do miocárdio</h1>
+<h1 style='text-align: center;'>Análise dos tempos de espera de pacientes em cintilografia do miocárdio na clínica CDI</h1>
 """, unsafe_allow_html=True)
 
 # autores
