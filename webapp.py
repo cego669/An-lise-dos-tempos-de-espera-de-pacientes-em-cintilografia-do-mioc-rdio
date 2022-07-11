@@ -16,21 +16,15 @@ from datetime import datetime
 st.sidebar.markdown("""
 <h4>Considerações:</h4>
 
-***
-
 É possível notar que no período de 1 mês a meta estipulada (de 3 horas de espera) foi alcançada apenas em <ins>**12 dias**</ins>,
 o que equivale a 46\% de todo o período analisado. Existem diversos fatores que influenciam o tempo de espera do
 paciente, entre os principais podemos citar a necessidade de <ins>**repetição**</ins> do exame, <ins>**pacientes que se ausentam**</ins> durante
 o intervalo de espera e a <ins>**demora em posicionar pacientes mais idosos**</ins>. Portanto, na ausência de indicativos dessas ocorrências, é útil
 analisar os valores com certo distanciamento.
 
-***
-
 Pelos vídeos de fluxo dos pacientes, percebe-se que os períodos de maior espera se concentram entre <ins>**11 e 13hs**</ins>. Já pelos gráficos, notamos
 que o período de maior espera tende a ser <ins>**entre a primeira injeção e a primeira imagem**</ins>. A maior média de tempo de espera foi de 142 minutos
 (2 horas e 22 minutos) e ocorreu entre a segunda injeção e a segunda imagem do dia 13/06.
-
-***
 
 Registrar ocorrências importantes dos dias para auxiliar no entendimento dos tempos de espera pode ser útil. Por exemplo, no dia 06 e 07 de julho,
 a CZT esteve indisponível.
