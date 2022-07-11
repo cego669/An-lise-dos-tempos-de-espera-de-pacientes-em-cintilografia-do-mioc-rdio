@@ -26,7 +26,7 @@ Pelos vídeos de fluxo dos pacientes, percebe-se que os períodos de maior esper
 que o período de maior espera tende a ser <ins>**entre a primeira injeção e a primeira imagem**</ins>. A maior média de tempo de espera foi de 142 minutos
 (2 horas e 22 minutos) e ocorreu entre a segunda injeção e a segunda imagem do dia 13/06.
 
-Registrar ocorrências importantes dos dias para auxiliar no entendimento dos tempos de espera pode ser útil. Por exemplo, no dia 06 e 07 de julho,
+<ins>**Registrar ocorrências importantes dos dias**</ins> para auxiliar no entendimento dos tempos de espera pode ser útil. Por exemplo, no dia 06 e 07 de julho,
 a CZT esteve indisponível.
 
 """, unsafe_allow_html=True)
