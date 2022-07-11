@@ -9,3 +9,5 @@
 **Objetivos:** buscou-se evidenciar os dias de maior atraso (maior tempo médio de espera dos pacientes) assim como as etapas que foram as fontes de atraso. Uma ideia legal que foi posta em prática foi a dos vídeos de fluxo dos pacientes ao longo das etapas a medida que o tempo passa. Por meio deles, é possível ver, literalmente, os momentos do dia e as etapas em que há "engasgos" no atendimento aos pacientes.
 
 Esta análise foi feita durante meu estágio na clínica Centro de Diagnóstico por Imagem (CDI), junto ao meu amigo *Alessando Ramos* (https://github.com/Ikaterinpop).
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://cego669-an-lise-dos-tempos-de-espera-de-pacientes-webapp-kmbhhx.streamlitapp.com/)
