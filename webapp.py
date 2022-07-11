@@ -32,6 +32,12 @@ st.markdown("""
 <h1 style='text-align: center;'>Análise dos tempos de espera em cintilografia do miocárdio</h1>
 """, unsafe_allow_html=True)
 
+# autores
+st.markdown("""
+---
+
+**Autores:** Carlos Eduardo G. de Oliveira e Alessando Ramos Júnior.""")
+
 st.markdown("""
 **Nota sobre os dados**: *quando houve horários faltantes para os pacientes, preencheu-se usando 
 a mediana (referente ao dia, e não a geral) dos tempos de espera entre as etapas do exame. Optou-se por essa
@@ -105,9 +111,3 @@ video_bytes = video_file.read()
 
 # mostrando o vídeo
 st.video(video_bytes)
-
-# autores
-st.markdown("""
----
-
-**Autores:** Carlos Eduardo G. de Oliveira e Alessando Ramos Júnior.""")
