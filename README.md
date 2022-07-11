@@ -7,3 +7,5 @@
 **Scripts:** *preenchimento_dados_faltantes.ipynb* se refere à lógica usada para preenchimento dos dados faltantes; *video_de_fluxo_de_pacientes.ipynb* se refere ao script usado para gerar os vídeos de "fluxo" dos pacientes em cada dia de exame; *webapp.py* se refere ao código escrito para gerar o aplicativo web.
 
 **Objetivos:** buscou-se evidenciar os dias de maior atraso (maior tempo médio de espera dos pacientes) assim como as etapas que foram as fontes de atraso. Uma ideia legal que foi posta em prática foi a dos vídeos de fluxo dos pacientes ao longo das etapas a medida que o tempo passa. Por meio deles, é possível ver, literalmente, os momentos do dia e as etapas em que há "engasgos" no atendimento aos pacientes.
+
+Esta análise foi feita durante meu estágio na clínica Centro de Diagnóstico por Imagem (CDI).
