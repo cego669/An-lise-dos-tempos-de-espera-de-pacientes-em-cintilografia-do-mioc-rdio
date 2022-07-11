@@ -36,7 +36,9 @@ st.markdown("""
 st.markdown("""
 ---
 
-**Autores:** Carlos Eduardo G. de Oliveira e Alessando Ramos Júnior.""")
+**Autores:** Carlos Eduardo G. de Oliveira e Alessando Ramos Júnior.
+
+**Github:** *https://github.com/cego669/An-lise-dos-tempos-de-espera-de-pacientes-em-cintilografia-do-mioc-rdio/*""")
 
 st.markdown("""
 **Nota sobre os dados**: *quando houve horários faltantes para os pacientes, preencheu-se usando 
