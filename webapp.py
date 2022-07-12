@@ -26,7 +26,7 @@ Pelos vídeos de fluxo dos pacientes, percebe-se que os períodos de maior esper
 que o período de maior espera tende a ser <ins>**entre a primeira injeção e a primeira imagem**</ins>. A maior média de tempo de espera foi de 142 minutos
 (2 horas e 22 minutos) e ocorreu entre a segunda injeção e a segunda imagem do dia 13/06.
 
-Vale notar que durante o período de 6 de setembro a 7 de setembro um dos equipamentos de imagem Gama câmara NM 530c (CZT) apresentou falhas e sua utilziação foi
+Vale notar que durante o período de 6 e 7 de setembro o equipamento de imagem "Gama câmara NM 530c" (CZT) apresentou falhas e sua utilziação foi
 interrompida. Este acontecimento gerou uma sobre carga de pacientes nos outros equipamentos, o que contribuiu para o atraso.
 
 <ins>**Registrar ocorrências importantes dos dias**</ins> para auxiliar no entendimento dos tempos de espera pode ser útil. Por exemplo, no dia 06 e 07 de julho,
