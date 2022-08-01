@@ -12,7 +12,7 @@ import pandas as pd
 import plotly.express as px
 from datetime import datetime
 
-sheet = st.selectbox("Selecione a planilha de dados:", ["planilha1_preenchida.xlsx", "planilha2_preenchida.xlsx"])
+sheet = st.sidebar.selectbox("Selecione a planilha de dados:", ["planilha1_preenchida.xlsx", "planilha2_preenchida.xlsx"])
 
 if sheet == "planilha1_preenchida.xlsx":
     # considerações sobre os dados (sidebar)
