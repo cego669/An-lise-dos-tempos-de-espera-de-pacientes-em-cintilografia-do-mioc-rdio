@@ -12,30 +12,33 @@ import pandas as pd
 import plotly.express as px
 from datetime import datetime
 
-# considerações sobre os dados (sidebar)
-st.sidebar.markdown("""
-<h4>Considerações:</h4>
+sheet = st.selectbox("Selecione a planilha de dados:", ["planilha1_preenchida.xlsx", "planilha2_preenchida.xlsx"])
 
-É possível notar que no período de 1 mês a meta estipulada (de 3 horas de espera) foi alcançada apenas em <ins>**12 dias**</ins>,
-o que equivale a 46% de todo o período analisado. Existem diversos fatores que influenciam o tempo de espera do
-paciente, entre os principais podemos citar a necessidade de <ins>**repetição**</ins> do exame, <ins>**pacientes que se ausentam**</ins> durante
-o intervalo de espera e a <ins>**demora em posicionar pacientes mais idosos**</ins>. Portanto, na ausência de indicativos dessas ocorrências, é útil
-analisar os valores com certo distanciamento.
+if sheet == "planilha1_preenchida.xlsx":
+    # considerações sobre os dados (sidebar)
+    st.sidebar.markdown("""
+    <h4>Considerações:</h4>
 
-Pelos vídeos de fluxo dos pacientes, percebe-se que os períodos de maior espera se concentram entre <ins>**11 e 13hs**</ins>. Já pelos gráficos, notamos
-que o período de maior espera tende a ser <ins>**entre a primeira injeção e a primeira imagem**</ins>. A maior média de tempo de espera foi de 142 minutos
-(2 horas e 22 minutos) e ocorreu entre a segunda injeção e a segunda imagem do dia 13/06.
+    É possível notar que no período de 1 mês a meta estipulada (de 3 horas de espera) foi alcançada apenas em <ins>**12 dias**</ins>,
+    o que equivale a 46% de todo o período analisado. Existem diversos fatores que influenciam o tempo de espera do
+    paciente, entre os principais podemos citar a necessidade de <ins>**repetição**</ins> do exame, <ins>**pacientes que se ausentam**</ins> durante
+    o intervalo de espera e a <ins>**demora em posicionar pacientes mais idosos**</ins>. Portanto, na ausência de indicativos dessas ocorrências, é útil
+    analisar os valores com certo distanciamento.
 
-Vale notar que durante o período de 6 e 7 de Julho o equipamento de imagem "Gama câmara NM 530c" (CZT) apresentou falhas e sua utilização foi
-interrompida. Este acontecimento gerou uma sobrecarga de pacientes nos outros equipamentos, o que contribuiu para o atraso.
+    Pelos vídeos de fluxo dos pacientes, percebe-se que os períodos de maior espera se concentram entre <ins>**11 e 13hs**</ins>. Já pelos gráficos, notamos
+    que o período de maior espera tende a ser <ins>**entre a primeira injeção e a primeira imagem**</ins>. A maior média de tempo de espera foi de 142 minutos
+    (2 horas e 22 minutos) e ocorreu entre a segunda injeção e a segunda imagem do dia 13/06.
 
-<ins>**Registrar ocorrências importantes dos dias**</ins> para auxiliar no entendimento dos tempos de espera pode ser útil. Por exemplo, no dia 06 e 07 de julho,
-a CZT esteve indisponível.
+    Vale notar que durante o período de 6 e 7 de Julho o equipamento de imagem "Gama câmara NM 530c" (CZT) apresentou falhas e sua utilização foi
+    interrompida. Este acontecimento gerou uma sobrecarga de pacientes nos outros equipamentos, o que contribuiu para o atraso.
 
-""", unsafe_allow_html=True)
+    <ins>**Registrar ocorrências importantes dos dias**</ins> para auxiliar no entendimento dos tempos de espera pode ser útil. Por exemplo, no dia 06 e 07 de julho,
+    a CZT esteve indisponível.
+
+    """, unsafe_allow_html=True)
 
 # carregando os dados
-data = pd.read_excel("horarios_tabela_final_preenchida.xlsx")
+data = pd.read_excel(sheet)
 etapas = ["cadastro", "1_injecao", "1_imagem", "2_injecao", "2_imagem", "alta"]
 data.dropna(subset = etapas, inplace = True)
 
