@@ -3,3 +3,4 @@ numpy
 streamlit==0.89.0
 plotly==5.1.0
 xlrd
+openpyxl
